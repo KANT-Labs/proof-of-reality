@@ -1,0 +1,23 @@
+{
+  "name": "kantist-scribe",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/kantist/scribe/src",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run dev",
+        "cwd": "apps/kantist/scribe"
+      }
+    },
+    "deploy": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run deploy",
+        "cwd": "apps/kantist/scribe"
+      }
+    }
+  }
+}

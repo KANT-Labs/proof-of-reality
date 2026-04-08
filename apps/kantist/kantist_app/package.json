@@ -1,0 +1,20 @@
+{
+  "name": "kantistapp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@react-native-camera-roll/camera-roll": "^7.10.2",
+    "@react-native/metro-config": "0.79.3",
+    "metro-config": "0.82.4",
+    "piexifjs": "^1.0.6",
+    "react": "19.0.0",
+    "react-native": "0.79.3",
+    "react-native-bootsplash": "^7.1.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-qrcode-svg": "6.3.2",
+    "react-native-sha256": "^1.4.10",
+    "react-native-svg": "15.8.0",
+    "react-native-vision-camera": "^4.7.3"
+  }
+}

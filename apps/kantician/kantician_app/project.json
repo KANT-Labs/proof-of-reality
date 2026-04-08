@@ -1,0 +1,9 @@
+{
+  "name": "kantician_app",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/kantician/kantician_app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project kantician_app --web",
+  "targets": {}
+}

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.errorContainer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.errorText {
+  color: #FF5252;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.qrContainer {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 440px;
+  min-height: 480px;
+}
+
+.waitingText {
+  color: #666666;
+  text-align: center;
+  margin: 0;
+}
+
+.slotText {
+  color: #000000;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.textContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sigText {
+  color: #AAAAAA;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}

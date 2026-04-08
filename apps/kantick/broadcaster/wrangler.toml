@@ -1,0 +1,14 @@
+name = "block-watch-broadcaster"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+
+# Bind the Durable Object Namespace
+[durable_objects]
+bindings = [
+  { name = "BLOCK_ROOM", class_name = "BlockRoom" }
+]
+
+# Migration to create the class
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["BlockRoom"]

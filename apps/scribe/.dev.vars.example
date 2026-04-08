@@ -1,0 +1,6 @@
+# Your Solana Wallet Private Key as a JSON array (e.g. from phantom wallet or solana-keygen)
+# Example: [123,45,67,89,...]
+WALLET_PRIVATE_KEY="[]"
+
+# Optional: Override the default Devnet RPC URL
+# SOLANA_RPC_URL="https://api.devnet.solana.com"

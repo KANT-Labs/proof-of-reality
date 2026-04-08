@@ -1,0 +1,22 @@
+{
+  "name": "block-watch-broadcaster",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/kantick/broadcaster/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "wrangler dev",
+        "cwd": "apps/kantick/broadcaster"
+      }
+    },
+    "deploy": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "wrangler deploy",
+        "cwd": "apps/kantick/broadcaster"
+      }
+    }
+  }
+}
