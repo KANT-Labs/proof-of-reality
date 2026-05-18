@@ -4,6 +4,14 @@
 
 Proof of Reality is an open-source framework for cryptographic verification of real-world media. It combines on-chain data extraction, physical forensics, and mobile-first tooling to establish trust in digital content.
 
+## Papers
+
+**Proof-of-Reality: Binding Multimedia Content to Physical Capture through Ledger-Anchored Feedback Paths**
+Preprint · May 2026 · Zenodo: [https://zenodo.org/records/20205320](https://zenodo.org/records/20205320) · DOI: `10.5281/zenodo.20205320`
+
+**PoR-Chain: Cryptographically Anchored Cumulative Hash Chains for Provable Multimedia Authenticity**
+Preprint · May 2026 · Zenodo: [https://zenodo.org/records/20265390](https://zenodo.org/records/20265390) · DOI: `10.5281/zenodo.20265390`
+
 ## Architecture
 
 This is an Nx monorepo containing three domains:
