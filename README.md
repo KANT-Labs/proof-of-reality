@@ -12,6 +12,16 @@ Preprint · May 2026 · Zenodo: [https://zenodo.org/records/20205320](https://ze
 **PoR-Chain: Cryptographically Anchored Cumulative Hash Chains for Provable Multimedia Authenticity**
 Preprint · May 2026 · Zenodo: [https://zenodo.org/records/20265390](https://zenodo.org/records/20265390) · DOI: `10.5281/zenodo.20265390`
 
+## Patents
+
+Korean patent applications filed with the Korean Intellectual Property Office (KIPO):
+
+- **KR 10-2026-0023748** — Proof-of-Reality framework · Filed 2026-02-05
+- **KR 10-2026-0072171** — Full application · Filed 2026-04-21
+- **KR 10-2026-0083791** — Cumulative Hash Chain extension (PoR-Chain) · Filed 2026-05-08
+
+International filings under the Patent Cooperation Treaty (PCT) are anticipated within the priority window.
+
 ## Architecture
 
 This is an Nx monorepo containing three domains:
